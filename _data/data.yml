@@ -1,0 +1,148 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output. 
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Leo Soler
+    tagline: Senior Performance Engineer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: leosoler@gmail.com
+    phone: 
+    website: leosoler.github.io #do not add http://
+    linkedin: leo-soler
+    github: LeoSoler
+    gitlab:
+    bitbucket:
+    twitter: ''
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Italian
+        level: Beginer
+        
+    interests:
+      - item: Snowboarding
+        link:
+
+      - item: Cooking
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      My current day to day activities involves contacting project teams and introduce 
+      them in performance engineering and service virtualization, initially gathering 
+      all information possible using questionnaires, meetings and understanding requirements 
+      for documentation and scripting, test executions and analysis of all types of 
+      load tests and working with teams on application monitoring during performance test 
+      executions. 
+
+      Also developing virtual services for increasing performance testing scope or removing 
+      problematic data sources to validate project health. I have experience implementing CI/CD 
+      for performance testing using Jenkins and Jmeter for inhouse and cloud applications, 
+      as well as environment configuration through Jenkins for test executions.
+
+experiences:
+    - role: Senior Performance & Service Virtualization Engineer
+      time: 2015 - Present
+      company: DXC, Argentina
+      details: |
+         
+
+    - role: Senior Performance Engineer
+      time: 2011 - 2015
+      company: DXC, Argentina
+      details: |
+        
+
+    - role: Performance Engineer
+      time: 2009 - 2011
+      company: DXC, Argentina
+      details: |
+        
+
+projects:
+    title: Projects
+    intro: >
+      Most important projects listed below for Performance and Service Virtualization on current company. 
+
+    assignments:
+      - title: AACom Performance Testing
+        link: "#aa.com"
+        tagline: "Performance testing responsable for main aacom project, implementing a performance strategy across entire organization."
+
+      - title: AACom Service Virtualization
+        link: "#"
+        tagline: "Implementation of service virtualization for all data sources of QA environments of AACOM for Dev, Functional & Performance Testing, allowing data and services constraints to be removed."
+       
+      
+education:
+    - degree: CA DevTest SV Lab Accredited 
+      university: CA Plano
+      time: 2015
+      details: |
+        CA DevTest inhouse training on CA facilities, for Service Virtualization with CA LISA/DevTest tool. 
+
+    - degree: Java SE 6 Programmer
+      university: Oracle Certified Professional
+      time: 2010
+      details: |
+        Oracle Java 6 SE certification.
+        
+#publications:
+#    title: Publications
+#    intro: |
+#      You can list your publications in this section. Lorem ipsum dolor sit
+#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#      bibendum fringilla a eu lectus.
+
+#    papers:
+#      - title: The Art of Computer Programming
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
+
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#      - title: A syntax directed compiler for Algol 60
+#        authors: Edgar T. Irons
+#        conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: LoadRunner
+        level: 98%
+
+      - name: Jmeter
+        level: 98%
+
+      - name: DevTest
+        level: 98%
+
+      - name: Dynatrace
+        level: 95%
+
+      - name: WireMock
+        level: 85%
+
+      - name: Java
+        level: 60%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
